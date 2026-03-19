@@ -25,11 +25,7 @@ Example:
 An "Expense Approval" workflow checks the amount entered by the user. If the amount is greater than 100, it proceeds to finance notification; otherwise, the workflow ends.
 
 This project demonstrates core concepts of workflow automation, decision-making logic, and backend-frontend integration.
-## Live Backend API
-https://halleyx-production.up.railway.app
 
-## Test Endpoint
-POST https://halleyx-production.up.railway.app/workflows/1/execute
 
 Sample Input:
 {
