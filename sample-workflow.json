@@ -1,0 +1,13 @@
+{
+  "name": "Expense Approval",
+  "steps": [
+    {
+      "id": "1",
+      "name": "Manager Approval",
+      "rules": [
+        { "condition": "data.amount > 100", "next_step_id": "2", "priority": 1 },
+        { "condition": "DEFAULT", "next_step_id": null, "priority": 2 }
+      ]
+    }
+  ]
+}
