@@ -1,7 +1,7 @@
 ## Live Demo
 
 Frontend:
-https://your-username.github.io/halleyx/
+ https://karthikeswari1811.github.io/halleyx/
 
 Backend:
 https://halleyx-production.up.railway.app
