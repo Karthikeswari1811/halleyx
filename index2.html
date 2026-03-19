@@ -80,7 +80,7 @@
       document.getElementById("output").innerHTML = "Running workflow...";
 
       try {
-        const res = await fetch("http://localhost:3000/workflows/1773913067252/execute", {
+        const res = await fetch("http://localhost:3000/workflows/1/execute", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
