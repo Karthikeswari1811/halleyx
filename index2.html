@@ -80,7 +80,7 @@
       document.getElementById("output").innerHTML = "Running workflow...";
 
       try {
-        const res = await fetch("http://localhost:3000/workflows/1/execute", {
+        const res = await fetch("https://your-app.up.railway.app/workflows/1/execute", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
